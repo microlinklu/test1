@@ -6,6 +6,8 @@
     <script src="libs/jquery-1.11.0.min.js"></script>
     <script src="libs/js/bootstrap.min.js"></script>
     <link href="libs/css/bootstrap.min.css">
+    <link href="css/slidecss.css" rel="stylesheet">
+    <link href="css/poplogin.css" rel="stylesheet">
 </head>
 <body>
      <div class="container">
@@ -14,8 +16,8 @@
                  <!--轮播图使用4张图片-->
                  <a href="javascript:void(0)"><img src="image/1004.jpg"></a>
                  <a href="javascript:void(0)"><img id="second"></a>
-                 <a href="javascript:void(0)"><img src="third"></a>
-                 <a href="javascript:void(0)"><img src="fourth"></a>
+                 <a href="javascript:void(0)"><img id="third"></a>
+                 <a href="javascript:void(0)"><img id="fourth"></a>
              </div>
              <ul><!--轮播图序号-->
                  <li>1</li>
@@ -27,9 +29,9 @@
          </div>
          <!--第二行-->
          <div class="row">
-             <div class="col-md-4"><img src="image/1008.jpg"></div>
+             <div class="col-md-4"><img src="image/1008.jpg" onclick="loginstart()"></div>
              <div class="col-md-4"><img src="image/1013.jpg"></div>
-             <div class="col-md-4"><img src="image/10014.jpg"></div>
+             <div class="col-md-4"><img src="image/1014.jpg"></div>
          </div>
          <!--第三行-->
          <div class="row" >
@@ -50,5 +52,8 @@
         <a href="#" id="loginbtn">登录</a>
     </div>
 </div>
+<script src="script/slidescript.js"></script>
+<script src="script/poplogin.js"></script>
+
 </body>
 </html>
